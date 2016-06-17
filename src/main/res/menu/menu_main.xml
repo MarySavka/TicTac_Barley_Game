@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+<item android:id="@+id/action_ticTac"
+    android:title="@string/action_ticTacToe"
+    android:orderInCategory="100">
+
+    <menu>
+        <item android:id="@+id/action_startNewTicTac"
+            android:title="@string/action_startNewTicTac"
+            android:orderInCategory="10"/>
+
+        <item android:id="@+id/action_continueTicTac"
+            android:title="@string/action_continueTicTac"
+            android:orderInCategory="20"/>
+
+        <item android:id="@+id/action_backTicTac"
+            android:title="@string/action_back"
+            android:orderInCategory="30"/>
+
+    </menu>
+
+</item>
+
+<item android:id="@+id/action_settings"
+    android:title="@string/action_barleyBrake"
+    android:orderInCategory="200">
+
+    <menu>
+        <item android:id="@+id/action_startNewBarley"
+            android:title="@string/action_startNewBarley"
+            android:orderInCategory="10"/>
+
+        <item android:id="@+id/action_continueBarley"
+            android:title="@string/action_continueBarley"
+            android:orderInCategory="20"/>
+
+        <item android:id="@+id/action_backBarley"
+            android:title="@string/action_back"
+            android:orderInCategory="30"/>
+
+    </menu>
+
+</item>
+</menu>

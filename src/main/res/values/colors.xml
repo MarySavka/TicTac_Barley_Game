@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBack">#303F9F</color>
+    <color name="colorBackTv">#303F9F</color>
+    <color name="colorButton">#9dcbf4</color>
+    <color name="colorBackBarley">#ffedf4f2</color>
+    <color name="colorButtonBarley">#ff4bf41f</color>
+    <color name="colorButtonEmpty">#b396f479</color>
+    <color name="colorBlank">#ff7986f4</color>
+    <color name="colorBlankText">#ff361ef4</color>
+</resources>

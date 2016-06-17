@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/mainTicTac"
+android:background="@color/colorBack">
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+
+<TextView
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:id="@+id/text"
+    android:background="@color/colorBackTv"/>
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+
+<TableRow
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn0"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn2"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</TableRow>
+
+<TableRow
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn3"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn4"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn5"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</TableRow>
+
+<TableRow
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn6"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn7"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textSize="18pt"
+        android:gravity="center"
+        android:onClick="gameTicTac"
+        android:id="@+id/btn8"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</TableRow>
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+
+</TableLayout>

@@ -1,0 +1,13 @@
+
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="action_back">Назад</string>
+    <string name="action_ticTacToe">Крестики-нолики</string>
+    <string name="action_startNewTicTac">Новая игра</string>
+    <string name="action_continueTicTac">Продолжить</string>
+    <string name="action_barleyBrake">Пятнашки</string>
+    <string name="action_startNewBarley">Новая игра</string>
+    <string name="action_continueBarley">Продолжить</string>
+
+</resources>
